@@ -146,7 +146,56 @@
                 </h1>
             </div>
 
-            
+            <div class="row">
+                <div class="col-lg-10">
+
+                    <div class="mb-5 p-4"
+                        style="background-color: white; border-radius: 12px; border-left: 5px solid var(--stormy-slate);">
+                        <div class="d-flex justify-content-between align-items-start flex-wrap">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="me-3 d-flex align-items-center justify-content-center"
+                                    style="width: 50px; height: 50px; background-color: white; border-radius: 50%; border: 2px solid var(--stormy-light);">
+                                    <i class="fas fa-chart-line fa-lg" style="color: var(--stormy-dark);"></i>
+                                </div>
+                                <div>
+                                    <h3 class="fw-bold mb-0" style="color: var(--stormy-dark);">Algorithmic Market
+                                        Simulation</h3>
+                                    <p class="text-muted small mb-0">Java &bull; Algorithm Design &bull; St. Lawrence
+                                        University</p>
+                                </div>
+                            </div>
+                            <span class="badge rounded-pill text-dark border bg-white mt-1">Oct 2025</span>
+                        </div>
+
+                        <p class="lead text-dark mt-2" style="font-size: 1.05rem;">
+                            Engineered a high-frequency trading engine that simulates a stock market limit order book.
+                            The system processes thousands of buy/sell orders in real-time, matching opposing agents
+                            based on price priority and timestamps.
+                        </p>
+
+                        <h6 class="fw-bold text-uppercase text-muted small mt-4 mb-2">Key Technical Features</h6>
+                        <ul class="text-secondary">
+                            <li class="mb-2">Implemented a <strong>Dual-Priority Queue</strong> system (Min-Heap and
+                                Max-Heap) to achieve <code>O(1)</code> access time for the best bid and ask prices.</li>
+                            <li class="mb-2">Designed a custom algorithm to calculate the <strong>Running
+                                    Median</strong> of transaction prices dynamically without sorting the entire
+                                dataset, optimizing time complexity for large data streams.</li>
+                            <li class="mb-2">Built a "quality metric" matching logic to prioritize high-value trades
+                                while maintaining strict First-In-First-Out (FIFO) ordering for ties.</li>
+                        </ul>
+
+                        <div class="mt-4">
+                            <span class="badge rounded-pill py-2 px-3 text-dark border bg-white me-1">Java</span>
+                            <span class="badge rounded-pill py-2 px-3 text-dark border bg-white me-1">Data
+                                Structures</span>
+                            <span class="badge rounded-pill py-2 px-3 text-dark border bg-white me-1">Heaps</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
         </section>
 
     </main>
