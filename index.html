@@ -118,7 +118,7 @@
             margin-bottom: 1rem;
         }
 
-        @media screen and (width <=768px) {
+        @media screen and (max-width: 992px) {
             body {
                 margin-left: 0;
             }
@@ -135,12 +135,14 @@
                 font-size: 2.5rem;
             }
 
+            /* Resets the banner height */
             .banner {
                 height: auto;
                 min-height: 0;
             }
 
-            .banner img {
+            /* Hides the specific image class */
+            .banner-img {
                 display: none;
             }
         }
