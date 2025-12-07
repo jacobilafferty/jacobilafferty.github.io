@@ -70,9 +70,10 @@
             font-weight: 700;
         }
 
-        @media screen and (width <= 768px) {
+        @media screen and (width <=768px) {
             body {
                 margin-left: 0;
+                padding-top: 60px;
             }
 
             .sidebar {
@@ -92,7 +93,6 @@
                 min-height: 250px;
             }
         }
-
     </style>
 </head>
 
@@ -159,12 +159,14 @@
                                         University</p>
                                 </div>
                             </div>
-                            <span class="badge rounded-pill text-dark border bg-white mt-1 me-3">Oct 2025 - Nov 2025</span>
+                            <span class="badge rounded-pill text-dark border bg-white mt-1 me-3">Oct 2025 - Nov
+                                2025</span>
                         </div>
 
                         <p class="lead text-dark mt-2" style="font-size: 1.05rem;">
                             Engineered a high-frequency trading engine that simulates a stock market limit order book.
-                            The system processes thousands of buy/sell orders in real-time, matching opposing agents (red sellers vs. blue buyers)
+                            The system processes thousands of buy/sell orders in real-time, matching opposing agents
+                            (red sellers vs. blue buyers)
                             based on price priority and timestamps.
                         </p>
 
@@ -173,7 +175,7 @@
                             <li class="mb-2">Implemented a Dual-Priority Queue system (Min-Heap and
                                 Max-Heap) to achieve fast access time for the best bid and ask prices.</li>
                             <li class="mb-2">Designed a custom algorithm to calculate the Running
-                                    Median of transaction prices dynamically without sorting the entire
+                                Median of transaction prices dynamically without sorting the entire
                                 dataset, optimizing time complexity for large data streams.</li>
                             <li class="mb-2">Built a "quality metric" matching logic to prioritize high-value trades
                                 while maintaining strict First-In-First-Out (FIFO) ordering for ties.</li>
@@ -187,25 +189,32 @@
                         <div class="d-flex justify-content-between align-items-start flex-wrap">
                             <div class="d-flex align-items-center mb-3">
                                 <div>
-                                    <h3 class="fw-bold mb-0" style="color: var(--stormy-dark);">Two-Player Chess Engine</h3>
+                                    <h3 class="fw-bold mb-0" style="color: var(--stormy-dark);">Two-Player Chess Engine
+                                    </h3>
                                     <p class="text-muted small mb-0">Java &bull; St. Lawrence University</p>
                                 </div>
                             </div>
-                            <span class="badge rounded-pill text-dark border bg-white mt-1 me-3">Apr 2025 - May 2025</span>
+                            <span class="badge rounded-pill text-dark border bg-white mt-1 me-3">Apr 2025 - May
+                                2025</span>
                         </div>
 
                         <p class="lead text-dark mt-2" style="font-size: 1.05rem;">
-                            Developed a fully functional two-player chess game with robust board logic and rule enforcement. 
-                            The application implements core chess mechanics including turn-based logic, special moves, and checkmate detection.
+                            Developed a fully functional two-player chess game with robust board logic and rule
+                            enforcement.
+                            The application implements core chess mechanics including turn-based logic, special moves,
+                            and checkmate detection.
                         </p>
 
                         <h6 class="fw-bold text-uppercase text-muted small mt-4 mb-2">Key Technical Features</h6>
                         <ul class="text-secondary">
-                            <li class="mb-2">Designed modular classes for game pieces, board state, and move validation using
+                            <li class="mb-2">Designed modular classes for game pieces, board state, and move validation
+                                using
                                 OOP principles, emphasizing clean architecture for easy extensibility.</li>
-                            <li class="mb-2">Built a graphical user interface (GUI) using Java Swing to visualize game state
+                            <li class="mb-2">Built a graphical user interface (GUI) using Java Swing to visualize game
+                                state
                                 and capture user interactions in real-time.</li>
-                            <li class="mb-2">Implemented complex move validation logic (check/checkmate detection, castling,
+                            <li class="mb-2">Implemented complex move validation logic (check/checkmate detection,
+                                castling,
                                 en passant) to ensure strict adherence to standard chess rules.</li>
                         </ul>
                     </div>
@@ -217,25 +226,32 @@
                         <div class="d-flex justify-content-between align-items-start flex-wrap">
                             <div class="d-flex align-items-center mb-3">
                                 <div>
-                                    <h3 class="fw-bold mb-0" style="color: var(--stormy-dark);">Maze Runner: Pathfinding Engine</h3>
+                                    <h3 class="fw-bold mb-0" style="color: var(--stormy-dark);">Maze Runner: Pathfinding
+                                        Engine</h3>
                                     <p class="text-muted small mb-0">Java &bull; St. Lawrence University</p>
                                 </div>
                             </div>
-                            <span class="badge rounded-pill text-dark border bg-white mt-1 me-3">Sep 2025 - Oct 2025</span>
+                            <span class="badge rounded-pill text-dark border bg-white mt-1 me-3">Sep 2025 - Oct
+                                2025</span>
                         </div>
 
                         <p class="lead text-dark mt-2" style="font-size: 1.05rem;">
-                            Engineered a pathfinding application to solve complex, dynamic mazes containing logic gates (doors, buttons, and traps). 
+                            Engineered a pathfinding application to solve complex, dynamic mazes containing logic gates
+                            (doors, buttons, and traps).
                             The system determines solvability and optimal paths through a multi-dimensional state space.
                         </p>
 
                         <h6 class="fw-bold text-uppercase text-muted small mt-4 mb-2">Key Technical Features</h6>
                         <ul class="text-secondary">
-                            <li class="mb-2">Implemented both Breadth-First Search (BFS) and Depth-First Search (DFS) algorithms 
+                            <li class="mb-2">Implemented both Breadth-First Search (BFS) and Depth-First Search (DFS)
+                                algorithms
                                 using Queues and Stacks to explore state transitions efficiently.</li>
-                            <li class="mb-2">Designed a robust state-tracking system that handles dynamic constraints (e.g., triggering a button on 
-                                coordinate X opens a door at coordinate Y), treating the maze as a complex graph rather than a static grid.</li>
-                            <li class="mb-2">Developed a Backtracking Algorithm to reconstruct the exact solution path from thousands of 
+                            <li class="mb-2">Designed a robust state-tracking system that handles dynamic constraints
+                                (e.g., triggering a button on
+                                coordinate X opens a door at coordinate Y), treating the maze as a complex graph rather
+                                than a static grid.</li>
+                            <li class="mb-2">Developed a Backtracking Algorithm to reconstruct the exact solution path
+                                from thousands of
                                 visited states, optimizing for memory usage on large (2000x2000) datasets.</li>
                         </ul>
                     </div>
