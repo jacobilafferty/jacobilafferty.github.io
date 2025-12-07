@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>My Academic Portfolio</title>
+    <title>Experience - Jacobi Lafferty</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
     <style>
+        /* --- GLOBAL VARIABLES --- */
         :root {
             --stormy-dark: #384959;
             --stormy-slate: #6A89A7;
@@ -22,16 +23,15 @@
             margin-left: 260px;
         }
 
+        /* --- SIDEBAR STYLES --- */
         .sidebar {
             background-color: var(--stormy-dark);
             color: white;
-
             height: 100vh;
             width: 260px;
             position: fixed;
             top: 0;
             left: 0;
-
             padding-top: 2rem;
             display: flex;
             flex-direction: column;
@@ -57,76 +57,25 @@
             color: var(--stormy-sky);
         }
 
-        .banner {
-            background-image: url(SLU-Fall-122.jpg);
-
-            background-size: cover;
-            background-position: center;
-
-            position: relative;
-            color: white;
-        }
-
-        .overlay {
-            background-color: rgba(255, 255, 255, 0.8);
-
-            width: 100%;
-            padding: 3rem;
-            color: black;
-        }
-
-        .banner-img {
-            width: 100%;
-            max-width: 300px;
-
-        }
-
-        .contact-link {
-            color: black;
-            text-decoration: none;
-        }
-
-        .contact-link:hover {
-            color: var(--stormy-sky);
-        }
-
-        .fa-fw {
-            width: 1.5em;
-            text-align: center;
-        }
-
+        /* --- PAGE CONTENT STYLES --- */
         .content-section {
             padding: 2rem 3rem 1rem 3rem;
         }
 
         .section-title {
             color: var(--stormy-dark);
-
             border-left: 5px solid var(--stormy-sky);
             padding-left: 15px;
             margin-bottom: 2rem;
-            font-weight: 700c;
-        }
-
-        .banner-title {
-
-
-            border-bottom: 5px solid var(--stormy-slate);
-            display: inline-block;
-
-            padding-bottom: 10px;
-            margin-bottom: 1rem;
+            font-weight: 700;
         }
     </style>
 </head>
 
 <body>
 
-    <!--add the sidebar-->
     <div class="sidebar">
         <img src="profile.png" alt="Profile Photo" class="profile-img">
-
-
 
         <nav class="nav flex-column text-center mt-4">
             <a class="nav-link" href="index.html">Home</a>
@@ -149,7 +98,7 @@
             <div class="row">
                 <div class="col-lg-10">
 
-                    <div class="job-card">
+                    <div class="mb-5 ps-4 border-start border-3" style="border-color: #eee;">
                         <div class="d-flex justify-content-between align-items-start flex-wrap">
                             <div>
                                 <h4 class="fw-bold mb-1" style="color: var(--stormy-dark);">Peterson Quantitative
@@ -168,7 +117,7 @@
                         </p>
                     </div>
 
-                    <div class="job-card">
+                    <div class="mb-5 ps-4 border-start border-3" style="border-color: #eee;">
                         <div class="d-flex justify-content-between align-items-start flex-wrap">
                             <div>
                                 <h4 class="fw-bold mb-1" style="color: var(--stormy-dark);">Elks National Foundation
@@ -187,7 +136,7 @@
                         </p>
                     </div>
 
-                    <div class="job-card">
+                    <div class="mb-5 ps-4 border-start border-3" style="border-color: #eee;">
                         <div class="d-flex justify-content-between align-items-start flex-wrap">
                             <div>
                                 <h4 class="fw-bold mb-1" style="color: var(--stormy-dark);">Links at Lang Farm</h4>
@@ -209,7 +158,6 @@
         </section>
 
     </main>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
