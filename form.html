@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sample Form</title>
+    </head>
+    <body>
+        <h1>Newsletter Signup</h1>
+        <!--create a form to sign up for newsletter-->
+         <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="28b1ed6c-5e5e-4644-89c9-01201ed77962">
+
+            <label for = "name"> Name: </label>
+            <input type="text" name="name" id="name">
+
+            <br><br>
+
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email">
+
+            <br><br>
+
+            <label for = "motivation">Why do you want to join our Newsletter?</label>
+            <br>
+            <textarea name="motivation" id="motivation" rows="10" cols="50"></textarea>
+            <br><br>
+            
+            <!--wrap radio buttons into a fieldset-->
+            <fieldset>
+                <legend>
+                    How often do you wish to recieve emails from us?
+                </legend>
+                <!--radio buttons-->
+                <input type="radio" id="daily" name="frequency" value="daily">
+                <label for="daily">Daily</label>
+
+                <br><br>
+
+                <input type="radio" id="weekly" name="frequency" value="weekly">
+                <label for="weekly">Weekly</label>
+            </fieldset>
+
+            <br>
+
+            <!--check boxes allow multiple selections-->
+            <fieldset>
+                <legend>Topics of interest</legend>
+
+                <input type="checkbox" name = "topics" id="tech" value="tech">
+                <label for = "tech">Technology</label>
+
+                <br>
+
+                <input type="checkbox" name="topics" id="design" value="design">
+                <label for = "design">Design</label>
+
+
+            </fieldset>
+
+            <br>
+
+            <input type="submit" value="Subscribe">
+         </form>
+    </body>
+
+</html>
